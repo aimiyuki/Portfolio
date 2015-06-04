@@ -1,3 +1,8 @@
 /.tmp/
 /node_modules/
 /dist/
+
+/app/vendor/lightbox/img/demopage
+/app/vendor/lightbox/index.html
+/app/vendor/lightbox/README.markdown
+/.idea
