@@ -1,17 +1,151 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Simple boilerplate</title>
-    <link rel="stylesheet" href="styles/main.css">
-  </head>
-  <body>
-    <main>
-      <h1 id="hello">Hello!</h1>
-      <p>I am in index.html.</p>
-    </main>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Simple boilerplate</title>
+  <link href="styles/main.css" rel="stylesheet">
 
-    <script src="scripts/main.js"></script>
-  </body>
+  <link href="vendor/lightbox/css/lightbox.css" rel="stylesheet"/>
+  <script src="vendor/lightbox/js/jquery-1.11.0.min.js"></script>
+  <script src="vendor/lightbox/js/lightbox.min.js"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div class="wrapper">
+  <header>
+    <h1>ai miyuki</h1>
+
+
+    <!-- <p>I love drawing and painting.
+      And I believe life's personal stories and moments are best told through the gift of a handwritten note, and hope
+      that my goods inspire you to share these moments with your friends, family, and everyone around you.
+      Please let me know if there is anything I can assist you with or ways that I can improve your everyday life
+      experience.</p> -->
+  </header>
+
+  <div class="navigation-bar">
+    <ul>
+      <li><a href="http://tmicltw.com/archive">Portfolio</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Shop</a></li>
+    </ul>
+  </div>
+
+
+  <div class="gallery">
+    <a href="http://res.cloudinary.com/dczblnimh/image/upload/e_gamma,q_100/v1433418308/scan-007-7_bm1vur.jpg"
+       data-lightbox="gallery">
+      <img src="http://res.cloudinary.com/dczblnimh/image/upload/c_lpad,e_gamma,h_300,q_100,w_300/v1433418308/scan-007-7_bm1vur.jpg"
+           alt="1">
+    </a>
+    <a href="http://res.cloudinary.com/dczblnimh/image/upload/e_gamma,q_100/v1433419075/scan-007-5_cikyo3.jpg"
+       data-lightbox="gallery">
+      <img src="http://res.cloudinary.com/dczblnimh/image/upload/c_lpad,e_gamma,h_300,q_100,w_300/v1433419075/scan-007-5_cikyo3.jpg"
+           alt="2">
+    </a>
+    <a href="http://res.cloudinary.com/dczblnimh/image/upload/e_gamma,q_100/v1433416606/scan-007_2_tdjymj.jpg"
+       data-lightbox="gallery">
+      <img src="http://res.cloudinary.com/dczblnimh/image/upload/c_scale,e_gamma,h_300,q_100,w_300/v1433416606/scan-007_2_tdjymj.jpg"
+           alt="3">
+    </a>
+    <a href="http://res.cloudinary.com/dczblnimh/image/upload/e_gamma,q_100/v1433416605/scan-007_6_ymitdp.jpg"
+       data-lightbox="gallery">
+      <img src="http://res.cloudinary.com/dczblnimh/image/upload/c_lpad,e_gamma,h_300,q_100,w_300/v1433416605/scan-007_6_ymitdp.jpg"
+           alt="4">
+    </a>
+    <a href="http://res.cloudinary.com/dczblnimh/image/upload/e_gamma,q_100/v1433416603/scan-007_4_kyqygt.jpg"
+       data-lightbox="gallery">
+      <img src="http://res.cloudinary.com/dczblnimh/image/upload/c_lpad,e_gamma,h_300,q_100,w_300/v1433416603/scan-007_4_kyqygt.jpg"
+           alt="5">
+    </a>
+    <a href="http://res.cloudinary.com/dczblnimh/image/upload/e_gamma,q_100/v1433416603/scan-007_3_suf0qa.jpg">
+      <img src="http://res.cloudinary.com/dczblnimh/image/upload/c_lpad,e_gamma,h_300,q_100,w_300/v1433416603/scan-007_3_suf0qa.jpg"
+           alt="6">
+    </a>
+    <a href="http://res.cloudinary.com/dczblnimh/image/upload/e_gamma,q_100/v1433416606/scan-006_6_dedzdp.jpg">
+      <img src="http://res.cloudinary.com/dczblnimh/image/upload/c_scale,e_gamma,h_300,q_100,w_300/v1433416606/scan-006_6_dedzdp.jpg"
+           alt="7">
+    </a>
+    <a href="http://res.cloudinary.com/dczblnimh/image/upload/e_gamma,q_100/v1433433387/scan-006_kr2yxs.jpg">
+      <img src="http://res.cloudinary.com/dczblnimh/image/upload/c_scale,e_gamma,h_300,q_100,w_300/v1433433387/scan-006_kr2yxs.jpg"
+           alt="8">
+    </a>
+    <a href="http://res.cloudinary.com/dczblnimh/image/upload/e_gamma,q_100/v1433416604/scan-006_2_gryjcp.jpg">
+      <img src="http://res.cloudinary.com/dczblnimh/image/upload/c_scale,e_gamma,h_300,q_100,w_300/v1433416604/scan-006_2_gryjcp.jpg"
+           alt="9">
+    </a>
+    <a href="http://res.cloudinary.com/dczblnimh/image/upload/v1433416605/scan-006_7_cwk9e2.jpg">
+      <img src="http://res.cloudinary.com/dczblnimh/image/upload/c_lpad,h_300,w_300/v1433416605/scan-006_7_cwk9e2.jpg"
+           alt="10">
+    </a>
+    <a href="http://res.cloudinary.com/dczblnimh/image/upload/e_gamma,q_100/v1433433609/scan-006_r3j9oe.jpg">
+      <img src="http://res.cloudinary.com/dczblnimh/image/upload/c_lpad,e_gamma,h_300,q_100,w_300/v1433433609/scan-006_r3j9oe.jpg"
+           alt="11">
+    </a>
+    <a href="http://res.cloudinary.com/dczblnimh/image/upload/e_gamma,q_100/v1433416606/scan-006_3_xk4zpf.jpg">
+      <img src="http://res.cloudinary.com/dczblnimh/image/upload/c_lpad,e_gamma,h_300,q_100,w_300/v1433416606/scan-006_3_xk4zpf.jpg"
+           alt="12">
+    </a>
+    <a href="http://res.cloudinary.com/dczblnimh/image/upload/e_gamma,q_100/v1433416602/scan-001_2_je4rhy.jpg">
+      <img src="http://res.cloudinary.com/dczblnimh/image/upload/c_lpad,e_gamma,h_300,q_100,w_300/v1433416602/scan-001_2_je4rhy.jpg"
+           alt="13">
+    </a>
+    <a href="http://res.cloudinary.com/dczblnimh/image/upload/e_gamma,q_100/v1433430981/scan-001_imjuvp.jpg">
+      <img src="http://res.cloudinary.com/dczblnimh/image/upload/c_lpad,e_gamma,h_300,q_100,w_300/v1433430981/scan-001_imjuvp.jpg"
+           alt="14">
+    </a>
+    <a href="http://res.cloudinary.com/dczblnimh/image/upload/e_gamma,q_100/v1433431102/scan-001_6_sxfn3l.jpg">
+      <img src="http://res.cloudinary.com/dczblnimh/image/upload/c_lpad,e_gamma,h_300,q_100,w_300/v1433431102/scan-001_6_sxfn3l.jpg"
+           alt="15">
+    </a>
+    <a href="http://res.cloudinary.com/dczblnimh/image/upload/e_gamma,q_100/v1433431209/scan-001_ujiyrr.jpg">
+      <img src="http://res.cloudinary.com/dczblnimh/image/upload/c_lpad,e_gamma,h_300,q_100,w_300/v1433431209/scan-001_ujiyrr.jpg"
+           alt="16">
+    </a>
+    <a href=""><img src="" width="" height="" alt=""></a>
+    <a href=""><img src="" width="" height="" alt=""></a>
+    <a href=""><img src="" width="" height="" alt=""></a>
+    <a href=""><img src="" width="" height="" alt=""></a>
+    <a href=""><img src="" width="" height="" alt=""></a>
+    <a href=""><img src="" width="" height="" alt=""></a>
+    <a href=""><img src="" width="" height="" alt=""></a>
+    <a href=""><img src="" width="" height="" alt=""></a>
+    <a href=""><img src="" width="" height="" alt=""></a>
+    <a href=""><img src="" width="" height="" alt=""></a>
+    <a href=""><img src="" width="" height="" alt=""></a>
+    <a href=""><img src="" width="" height="" alt=""></a>
+    <a href=""><img src="" width="" height="" alt=""></a>
+    <a href=""><img src="" width="" height="" alt=""></a>
+    <a href=""><img src="" width="" height="" alt=""></a>
+    <a href=""><img src="" width="" height="" alt=""></a>
+    <a href=""><img src="" width="" height="" alt=""></a>
+    <a href=""><img src="" width="" height="" alt=""></a>
+    <a href=""><img src="" width="" height="" alt=""></a>
+    <a href=""><img src="" width="" height="" alt=""></a>
+    <a href=""><img src="" width="" height="" alt=""></a>
+    <a href=""><img src="" width="" height="" alt=""></a>
+    <a href=""><img src="" width="" height="" alt=""></a>
+    <a href=""><img src="" width="" height="" alt=""></a>
+    <a href=""><img src="" width="" height="" alt=""></a>
+    <a href=""><img src="" width="" height="" alt=""></a>
+    <a href=""><img src="" width="" height="" alt=""></a>
+    <a href=""><img src="" width="" height="" alt=""></a>
+    <a href=""><img src="" width="" height="" alt=""></a>
+    <a href=""><img src="" width="" height="" alt=""></a>
+    <a href=""><img src="" width="" height="" alt=""></a>
+    <a href=""><img src="" width="" height="" alt=""></a>
+    <a href=""><img src="" width="" height="" alt=""></a>
+
+    <div class="push"></div>
+
+
+  </div>
+
+  <footer><p>Copyright (c) 2015 Ai Miyuki. All rights reserved.</p></footer>
+
+
+</div>
+</body>
 </html>
