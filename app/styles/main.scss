@@ -8,15 +8,22 @@ html, body {
   margin: 0;
   padding: 0;
   height: 100%;
-  background-color: #FAFFFF;
+  //background-color: #FAFFFF;
 }
 
 .wrapper {
-  background-color: #DFF2F2;
+  //background-color: #DFF2F2;
   min-height: 100%;
   height: auto;
   width: 960px;
   margin: 0 auto;
+
+ .aboutme {
+
+   p {
+     margin-bottom: 100px;
+   }
+ }
 
 
   header {
@@ -45,9 +52,12 @@ html, body {
   }
 
 
+
   }
 
-  .navigation-bar {
+
+
+  //.navigation-bar {
 
     ul {
       list-style-type: none;
@@ -89,7 +99,7 @@ footer {
   width: 960px;
   margin: 0 auto;
   text-align: center;
-  background-color: lighten(#92D4D4, 13%);
+  background-color: #FCFFFF;
   p {
     margin: 0;
     padding: 0;
