@@ -13,6 +13,7 @@ html, body {
 
 .wrapper {
   background-color: #DFF2F2;
+  min-height: 100%;
   height: auto;
   width: 960px;
   margin: 0 auto;
@@ -108,4 +109,4 @@ footer {
 
 //background colour #f7fae8b
 
-@import "bubbles";
+//@import "bubbles";
