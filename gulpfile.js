@@ -175,6 +175,8 @@ gulp.task('serve:dist', ['default'], function () {
 
 gulp.task('default', ['serve']);
 
+gulp.task('build', ['html', 'copy', 'styles', 'fonts', 'images']);
+
 // Run PageSpeed Insights
 gulp.task('pagespeed', function (cb) {
   // Update the below URL to the public URL of your site

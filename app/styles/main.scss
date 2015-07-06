@@ -133,6 +133,16 @@ footer {
   }
 }
 
+.greyscale {
+  filter: grayscale(100%);
+  transition: all 3s;
+  &:hover {
+    filter: grayscale(0%);
+    transition: all 3s;
+  }
+}
+
+
 // single line comment
 /*
  * i can
