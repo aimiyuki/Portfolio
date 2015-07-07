@@ -3,6 +3,7 @@
 
 $font-stack:Helvetica, sans-serif;
 $primary-color: #47444B;
+$link-color: #888;
 
 html, body {
   margin: 0 auto;
@@ -131,6 +132,25 @@ footer {
     padding: 0;
     line-height: 40px;
   }
+
+  a {
+    color: $link-color;
+    text-decoration: none;
+    transition: all 0.3s ease-in;
+
+    &:link, &:active, &:visited {
+      color: $link-color;
+    }
+
+    &:hover {
+      -webkit-text-stroke-width: 0.2px;
+      -webkit-text-stroke-color: #5CE6E6;
+      -webkit-text-fill-color: #5CE6E6;
+      //text-shadow: 1px 1px 1px #EADBFF;
+
+    }
+  }
+
 }
 
 .greyscale {
